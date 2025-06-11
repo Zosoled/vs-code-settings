@@ -107,4 +107,5 @@
 	"[javascript]": {
 		"editor.maxTokenizationLineLength": 30000
 	},
+	"workbench.startupEditor": "none",
 }
