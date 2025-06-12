@@ -28,6 +28,20 @@
 	"git.useIntegratedAskPass": false,
 	"github.gitProtocol": "ssh",
 	"gitlens.telemetry.enabled": false,
+	"gitlens.views.repositories.showStashes": true,
+	"gitlens.views.scm.grouped.hiddenViews": {
+		"commits": false,
+		"worktrees": false,
+		"branches": false,
+		"remotes": false,
+		"stashes": false,
+		"tags": false,
+		"contributors": false,
+		"repositories": false,
+		"fileHistory": false,
+		"launchpad": false,
+		"searchAndCompare": false
+	},
 	"gitlens.views.scm.grouped.views": {
 		"branches": true,
 		"commits": true,
