@@ -19,6 +19,7 @@
 	},
 	"files.insertFinalNewline": true,
 	"files.trimTrailingWhitespace": true,
+	"git.autofetch": true,
 	"git.autofetchPeriod": 300,
 	"git.confirmSync": false,
 	"git.enableCommitSigning": true,
