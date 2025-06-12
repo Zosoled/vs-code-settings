@@ -1,4 +1,5 @@
 {
+	"C_Cpp.clang_format_style": "WebKit",
 	"css.format.newlineBetweenRules": false,
 	"css.format.spaceAroundSelectorSeparator": true,
 	"diffEditor.ignoreTrimWhitespace": false,
