@@ -16,6 +16,7 @@
 		80
 	],
 	"editor.tabSize": 2,
+	"eslint.codeActionsOnSave.rules": null,
 	"eslint.format.enable": true,
 	"files.associations": {
 		"*.txt": "plaintext"
