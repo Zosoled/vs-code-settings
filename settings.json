@@ -1,4 +1,6 @@
 {
+	"css.format.newlineBetweenRules": false,
+	"css.format.spaceAroundSelectorSeparator": true,
 	"diffEditor.ignoreTrimWhitespace": false,
 	"editor.codeActionsOnSave": {},
 	"editor.detectIndentation": false,
