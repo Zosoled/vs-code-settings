@@ -15,6 +15,7 @@
 	"editor.rulers": [
 		80
 	],
+	"editor.stickyScroll.maxLineCount": 8,
 	"editor.tabSize": 2,
 	"eslint.codeActionsOnSave.rules": null,
 	"eslint.format.enable": true,
