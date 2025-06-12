@@ -49,6 +49,7 @@
 	"redhat.telemetry.enabled": false,
 	"salesforcedx-vscode-apex.enable-semantic-errors": true,
 	"salesforcedx-vscode-core.telemetry.enabled": false,
+	"shader-validator.severity": "hint",
 	"shader-validator.symbolDiagnostics": true,
 	"terminal.integrated.persistentSessionScrollback": 100000,
 	"terminal.integrated.scrollback": 100000,
