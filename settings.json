@@ -61,6 +61,7 @@
 	"typescript.inlayHints.propertyDeclarationTypes.enabled": true,
 	"typescript.tsserver.watchOptions": "vscode",
 	"workbench.remoteIndicator.showExtensionRecommendations": false,
+	"workbench.startupEditor": "none",
 	"xml.format.closingBracketNewLine": true,
 	"xml.format.emptyElements": "collapse",
 	"xml.format.enforceQuoteStyle": "preferred",
@@ -70,5 +71,4 @@
 	"[javascript]": {
 		"editor.maxTokenizationLineLength": 30000
 	},
-	"workbench.startupEditor": "none",
 }
