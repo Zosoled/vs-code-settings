@@ -77,6 +77,12 @@
 	"javascript.updateImportsOnFileMove.enabled": "always",
 	"js/ts.implicitProjectConfig.checkJs": true,
 	"js/ts.implicitProjectConfig.target": "ESNext",
+	"livePreview.httpHeaders": {
+		"Accept-Ranges": "bytes",
+		"Cross-Origin-Embedder-Policy": "require-corp",
+		"Cross-Origin-Opener-Policy": "same-origin",
+	},
+	"livePreview.openPreviewTarget": "External Browser",
 	"liveServer.settings.donotShowInfoMsg": true,
 	"liveServer.settings.wait": 500,
 	"redhat.telemetry.enabled": false,
