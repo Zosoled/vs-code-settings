@@ -109,6 +109,6 @@
 	"xml.format.maxLineWidth": 80,
 	"xml.format.splitAttributes": "splitNewLine",
 	"[javascript]": {
-		"editor.maxTokenizationLineLength": 30000
+		"editor.maxTokenizationLineLength": 1000000
 	},
 }
