@@ -13,7 +13,11 @@
 	"editor.maxTokenizationLineLength": 1000000,
 	"editor.renderWhitespace": "all",
 	"editor.rulers": [
-		80
+		80,
+		{
+			"color": "#f00",
+			"column": 120
+		}
 	],
 	"editor.stickyScroll.maxLineCount": 8,
 	"editor.tabSize": 2,
