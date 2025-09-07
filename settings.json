@@ -13,10 +13,13 @@
 	"editor.maxTokenizationLineLength": 1000000,
 	"editor.renderWhitespace": "all",
 	"editor.rulers": [
-		80,
 		{
-			"color": "#f00",
-			"column": 120
+			"column": 80,
+			"color": "#666",
+		},
+		{
+			"column": 120,
+			"color": "#900",
 		}
 	],
 	"editor.stickyScroll.maxLineCount": 8,
@@ -24,7 +27,8 @@
 	"eslint.codeActionsOnSave.rules": null,
 	"eslint.format.enable": true,
 	"files.associations": {
-		"*.txt": "plaintext"
+		"*.txt": "plaintext",
+		"*.wgsl": "wgsl",
 	},
 	"files.insertFinalNewline": true,
 	"files.trimTrailingWhitespace": true,
@@ -65,11 +69,12 @@
 		"worktrees": true,
 	},
 	"html.format.contentUnformatted": "pre,code,textarea,style",
-	"html.format.wrapAttributes": "preserve",
+	"html.format.templating": true,
+	"html.format.wrapAttributes": "force-expand-multiline",
 	"html.format.wrapLineLength": 0,
 	"i18n-ally.dirStructure": "auto",
 	"i18n-ally.enabledFrameworks": [
-		"transloco"
+		"transloco",
 	],
 	"i18n-ally.extract.autoDetect": true,
 	"i18n-ally.tabStyle": "tab",
@@ -112,7 +117,19 @@
 	"xml.format.joinContentLines": true,
 	"xml.format.maxLineWidth": 80,
 	"xml.format.splitAttributes": "splitNewLine",
-	"[javascript]": {
-		"editor.maxTokenizationLineLength": 1000000
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features",
 	},
+	"[javascript]": {
+		"editor.maxTokenizationLineLength": 1000000,
+	},
+	"[json]": {
+		"editor.defaultFormatter": "vscode.json-language-features",
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "vscode.json-language-features",
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features",
+	}
 }
