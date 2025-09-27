@@ -122,6 +122,7 @@
 	},
 	"[javascript]": {
 		"editor.maxTokenizationLineLength": 1000000,
+		"editor.defaultFormatter": "vscode.typescript-language-features",
 	},
 	"[json]": {
 		"editor.defaultFormatter": "vscode.json-language-features",
