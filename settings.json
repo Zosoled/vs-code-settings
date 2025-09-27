@@ -181,9 +181,7 @@
 	"[typescript]": {
 		"editor.codeActionsOnSave": {
 			"source.addMissingImports.ts": "explicit",
-			"source.fixAll.ts": "explicit",
 			"source.organizeImports": "explicit",
-			"source.removeUnused.ts": "explicit",
 			"source.removeUnusedImports": "explicit",
 			"source.sort.json": "explicit",
 			"source.sortImports": "explicit"
