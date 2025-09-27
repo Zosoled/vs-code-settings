@@ -3,10 +3,13 @@
 	"css.format.newlineBetweenRules": false,
 	"css.format.spaceAroundSelectorSeparator": true,
 	"diffEditor.ignoreTrimWhitespace": false,
-	"editor.codeActionsOnSave": {},
+	"editor.codeActionsOnSave": {
+		"source.fixAll": "always",
+	},
 	"editor.detectIndentation": false,
 	"editor.formatOnPaste": true,
 	"editor.formatOnSave": true,
+	"editor.formatOnSaveMode": "file",
 	"editor.hover.delay": 600,
 	"editor.hover.hidingDelay": 0,
 	"editor.insertSpaces": false,
@@ -117,8 +120,16 @@
 	"xml.format.joinContentLines": true,
 	"xml.format.maxLineWidth": 80,
 	"xml.format.splitAttributes": "splitNewLine",
+	"[css]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnSave": true,
+	},
 	"[html]": {
-		"editor.defaultFormatter": "vscode.html-language-features",
+		"editor.codeActionsOnSave": {
+			"source.fixAll.eslint": "explicit",
+		},
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnSave": true,
 	},
 	"[javascript]": {
 		"editor.maxTokenizationLineLength": 1000000,
@@ -130,7 +141,22 @@
 	"[jsonc]": {
 		"editor.defaultFormatter": "vscode.json-language-features",
 	},
+	"[scss]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnSave": true,
+	},
 	"[typescript]": {
+		"editor.codeActionsOnSave": {
+			"source.addMissingImports.ts": "explicit",
+			"source.fixAll.ts": "explicit",
+			"source.organizeImports": "explicit",
+			"source.removeUnused.ts": "explicit",
+			"source.removeUnusedImports": "explicit",
+			"source.sort.json": "explicit",
+			"source.sortImports": "explicit"
+		},
 		"editor.defaultFormatter": "vscode.typescript-language-features",
+		"editor.formatOnSave": true,
+		"editor.formatOnSaveMode": "file"
 	}
 }
